@@ -36,4 +36,10 @@ var s = env.render('hello.html', {
     fruits: ['Apple', 'Pear', 'Banana'],
     count: 12000
 });
-console.log(s)
+
+console.log(s);
+
+console.log(env.render('extend.html', {
+    header: 'Hello',
+    body: 'bla bla bla...'
+}));
